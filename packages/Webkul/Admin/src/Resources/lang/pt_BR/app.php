@@ -1,36 +1,5 @@
 <?php
 return [
-  'save' => 'Salvar',
-  'create' => 'Criar',
-  'update' => 'Atualizar',
-  'delete' => 'Deletar',
-  'failed' => 'Falhou',
-  'store' => 'Armazenar',
-  'image' => 'Imagem',
-  'no result' => 'Sem resultados',
-  'product' => 'Produto',
-  'attribute' => 'Atributo',
-  'actions' => 'Ação',
-  'id' => 'ID',
-  'action' => 'ação',
-  'yes' => 'Sim',
-  'no' => 'Não',
-  'true' => 'Verdadeiro',
-  'false' => 'Falso',
-  'apply' => 'Aplica',
-  'action' => 'Ação',
-  'label' => 'Label',
-  'name' => 'Nome',
-  'title' => 'Titulo',
-  'code' => 'Codigo',
-  'type' => 'Tipo',
-  'required' => 'Obrigatório',
-  'unique' => 'Unico',
-  'locale-based' => 'Local',
-  'channel-based' => 'Canal',
-  'status' => 'Status',
-  'select-option' => 'Select option',
-  'category' => 'Categoria',
     'common' => [
         'no-result-found' => 'Não conseguimos encontrar nenhum registro.',
         'country' => 'Pais',
@@ -45,7 +14,7 @@ return [
         'dashboard' => 'Dashboard',
         'sales' => 'Vendas',
         'orders' => 'Pedido',
-        'shipments' => 'Envios',
+        'shipments' => 'Envíos',
         'invoices' => 'Faturas',
         'catalog' => 'Catálogo',
         'products' => 'Produtos',
@@ -70,8 +39,7 @@ return [
         'tax-categories' => 'Categorias de Impostos',
         'tax-rates' => 'Impostos de Impostos',
         'promotion' => 'Promoções',
-        'discount' => 'Desconto',
-        'refunds' => 'Reembolso'
+        'discount' => 'Desconto'
     ],
     'acl' => [
         'dashboard' => 'Dashboard',
@@ -134,14 +102,12 @@ return [
             'delete-success' => 'O índice selecionado de :resource foi excluído com sucesso',
             'partial-action' => 'Algumas ações não foram executadas devido a restrições restritas do sistema em :resource',
             'update-success' => 'O índice selecionado :resource foram atualizados com sucesso',
-            'no-resource' => 'Sem recursos disponiveis'
         ],
         'id' => 'ID',
         'status' => 'Status',
         'code' => 'Código',
         'admin-name' => 'Nome',
         'name' => 'Nome',
-        'direction' => 'Endereço',
         'fullname' => 'Nome Completo',
         'type' => 'Tipo',
         'required' => 'Obrigatório',
@@ -154,8 +120,6 @@ return [
         'email' => 'Email',
         'group' => 'Grupo',
         'title' => 'Título',
-        'layout' => 'Layout',
-        'url-key' => 'URL Key',
         'comment' => 'Comentário',
         'product-name' => 'Produto',
         'currency-name' => 'Nome da Moéda',
@@ -165,7 +129,7 @@ return [
         'base-total' => 'Total Base',
         'grand-total' => 'Total Final',
         'order-date' => 'Data do Pedido',
-        'channel-name' => 'Revenda',
+        'channel-name' => 'Nome do Canal (Loja)',
         'billed-to' => 'Cobrado de',
         'shipped-to' => 'Enviado para',
         'order-id' => 'Pedido Id',
@@ -191,9 +155,7 @@ return [
         'per-cust' => 'Por cliente',
         'usage-throttle' => 'Tempos de uso',
         'for-guest' => 'Para convidados',
-        'order_number' => 'Número do Pedido',
-        'refund-date' => 'Data Reembolso',
-        'refunded' => 'Reembolso'
+        'refunded' => 'Refunded'
     ],
     'account' => [
         'title' => 'Minha Conta',
@@ -314,19 +276,19 @@ return [
             'total' => 'Total',
             'subtotal' => 'Subtotal',
             'shipping-handling' => 'Entrega & Manuseio',
-            'discount' => 'Descontos',
+            'discount' => 'Discount',
             'tax' => 'Imposto',
             'tax-percent' => 'Percentual Imposto',
             'tax-amount' => 'Valor de Imposto',
-            'discount-amount' => 'Valor do Desconto',
+            'discount-amount' => 'Discount Amount',
             'discount-amount' => 'Valor de Desconto',
             'grand-total' => 'Total',
             'total-paid' => 'Total Pago',
             'total-refunded' => 'Total Estornado',
             'total-due' => 'Total Devido',
             'cancel-confirm-msg' => 'Tem certeza que deseja cancelar esse pedido ?',
-            'refunds' => 'Estornos',
-            'refunded' => 'Estornados'
+            'refunds' => 'Refunds',
+            'refunded' => 'Refunded'
         ],
         'invoices' => [
             'title' => 'Faturas',
@@ -427,8 +389,6 @@ return [
             'price' => 'Preço',
             'weight' => 'Peso',
             'status' => 'Status',
-            'enabled' => 'Habilitado',
-            'disabled' => 'Desabilitado',
             'add-variant-title' => 'Add Variação',
             'variant-already-exist-message' => 'Variante com as mesmas opções de atributo já existe.',
             'add-image-btn-title' => 'Add Imagem',
@@ -493,9 +453,7 @@ return [
             'text-swatch' => 'Amostra de texto',
             'swatch' => 'Swatch',
             'image' => 'Imagem',
-            'file' => 'Arquivo',
-            'checkbox' => 'Checkbox',
-            'use_in_flat' => "Criar produto na tabela simples",
+            'file' => 'Arquivo'
         ],
         'families' => [
             'title' => 'Famílias',
@@ -839,8 +797,6 @@ return [
         ]
     ],
     'promotion' => [
-        'apply' => 'Aplicar',
-        'declut' => 'Declinar',
         'catalog-rule' => 'Regras de Catálogo',
         'cart-rule' => 'Regras do Carrinho',
         'add-catalog-rule' => 'Adicionar regra de catálogo',
@@ -970,39 +926,6 @@ return [
         'no-records' => 'Nada para exportar',
         'illegal-format' => 'Erro! Este tipo de formato não é suportado ou seu formato ilegal'
     ],
-    'cms' => [
-        'pages' => [
-            'general' => 'Geral',
-            'seo' => 'SEO',
-            'pages' => 'Paginas',
-            'title' => 'Titulo',
-            'add-title' => 'Adicionar Pagina',
-            'content' => 'Conteudo',
-            'url-key' => 'URL Key',
-            'channel' => 'Canal',
-            'locale' => 'Local',
-            'create-btn-title' => 'Salvar Pagina',
-            'edit-title' => 'Editar Página',
-            'edit-btn-title' => 'Salvar Pagina',
-            'create-success' => 'Pagina criada com Sucesso',
-            'create-partial' => 'Algumas paginas solicitadas já existem',
-            'create-failure' => 'Todas as paginas solicitadas já existem',
-            'update-success' => 'Página atualizada com sucesso',
-            'update-failure' => 'Pagina não pode ser atualizada',
-            'page-title' => 'Titulo',
-            'layout' => 'Layout',
-            'meta_keywords' => 'Meta Keywords',
-            'meta_description' => 'Meta Description',
-            'meta_title' => 'Meta Title',
-            'delete-success' => 'CMS página deletada com sucesso',
-            'delete-failure' => 'CMS não pode ser deletada',
-            'preview' => 'Preview',
-            'one-col' => '<div class="mt-10">Use class: <b>"static-container one-column"</b> for one column layout.</div>',
-            'two-col' => '<div class="mt-10">Use class: <b>"static-container two-column"</b> for two column layout.</div>',
-            'three-col' => '<div class="mt-10">Use class: <b>"static-container three-column"</b> for three column layout.</div>',
-            'helper-classes' => 'Helper Classes'
-        ]
-    ],
     'response' => [
         'being-used' => 'Este recurso :name está sendo usado em :source',
         'cannot-delete-default' => 'Não é possível excluir o canal padrão',
@@ -1083,8 +1006,6 @@ return [
             'order-number-prefix' => 'Order Number Prefix',
             'order-number-length' => 'Order Number Length',
             'order-number-suffix' => 'Order Number Suffix',
-        ],
-
-
+        ]
     ]
 ];

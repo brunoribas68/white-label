@@ -12,11 +12,11 @@ return [
 
     'common' => [
         'error' => 'Algo deu errado, por favor, tente novamente mais tarde.',
-        'no-result-found' => 'Não localizamos nenhum resultado.'
+        'no-result-found' => 'We could not find any records.'
     ],
 
     'home' => [
-        'page-title' => 'Applex - Home',
+        'page-title' => 'Bagisto - Home',
         'featured-products' => 'Produtos em Destaque',
         'new-products' => 'Novos Produtos',
         'verify-email' => 'Verifique sua Conta de E-mail',
@@ -438,7 +438,7 @@ return [
             'shipping-address' => 'Endereço de Entrega',
             'contact' => 'Contato',
             'place-order' => 'Enviar Pedido',
-            'new-address' => 'Adicionar Novo Endereço',
+            'new-address' => 'Add Novo Endereço',
             'save_as_address' => 'Salvar Endereço'
         ],
 
@@ -505,7 +505,7 @@ return [
             'carrier' => 'Transportadora',
             'tracking-number' => 'Código de Rastreio'
         ],
-
+        
         'forget-password' => [
             'dear' => 'Caro :name',
             'info' => 'Você está recebendo este e-mail porque recebemos uma solicitação de redefinição de senha para sua conta',

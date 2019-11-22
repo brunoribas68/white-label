@@ -226,9 +226,10 @@
                             })
 
                             if (filteredGroups.length) {
-                                const field = this_this.$validator.fields.find({ name: 'groupName', scope: 'add-group-form' });
+                                const field = this.$validator.fields.find({ name: 'groupName', scope: 'add-group-form' });
+
                                 if (field) {
-                                    this_this.$validator.errors.add({
+                                    this.$validator.errors.add({
                                         id: field.id,
                                         field: 'groupName',
                                         msg: "{{ __('admin::app.catalog.families.group-exist-error') }}",
