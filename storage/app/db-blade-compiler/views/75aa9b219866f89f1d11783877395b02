@@ -1,0 +1,18 @@
+<div class="list-container"><span class="list-heading">Quick Links</span>
+<ul class="list-group">
+<li><a href="@php echo route(" shop="" cms="" page="" about-us="" endphp="">Sobre n&oacute;s</a></li>
+<li><a href="@php echo route(" shop="" cms="" page="" return-policy="" endphp="">Pol&iacute;ticas de seguran&ccedil;a</a></li>
+<li><a href="@php echo route(" shop="" cms="" page="" refund-policy="" endphp="">Pol&iacute;tica de Reembolso</a></li>
+<li><a href="@php echo route(" shop="" cms="" page="" terms-conditions="" endphp="">Termos e Condi&ccedil;&otilde;es</a></li>
+<li><a href="@php echo route(" shop="" cms="" page="" terms-of-use="" endphp="">Termos de uso</a></li>
+</ul>
+</div>
+<div class="list-container"><span class="list-heading">Connect With Us</span>
+<ul class="list-group">
+<li><a href="#"><span class="icon icon-facebook"></span>Facebook </a></li>
+<li><a href="#"><span class="icon icon-twitter"></span> Twitter </a></li>
+<li><a href="#"><span class="icon icon-instagram"></span> Instagram </a></li>
+<li><a href="#"> <span class="icon icon-google-plus"></span>Google+ </a></li>
+<li><a href="#"> <span class="icon icon-linkedin"></span>LinkedIn </a></li>
+</ul>
+</div>

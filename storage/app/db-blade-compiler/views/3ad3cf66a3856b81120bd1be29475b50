@@ -1,0 +1,13 @@
+<p><?php echo $__env->make("shop::home.slider", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?> <?php echo $__env->make("shop::home.featured-products", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?> <?php echo $__env->make("shop::home.new-products", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?></p>
+<div class="banner-container">
+<div class="left-banner"></div>
+<div class="right-banner"></div>
+<div class="left-banner" style="width: 49%;">
+<h4>Protegendo seu neg&oacute;cio</h4>
+<p><iframe width="540" height="304" src="https://www.youtube.com/embed/rqE9Q1-RY6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+<div class="right-banner" style="width: 49%;">
+<h4>Protegendo voc&ecirc;</h4>
+<p><iframe width="540" height="304" src="https://www.youtube.com/embed/OlkcCC01G2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+</div>
